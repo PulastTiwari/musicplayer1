@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #000000, #666666);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.music-player {
+    text-align: center;
+    color: #000000;
+}
+
+.album-art {
+    margin-top: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.icon-btn {
+    font-size: 1em;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #000000;
+}
+
+.timeline {
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    background-color: #333333;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    width: 0; /* Initially set to 0, will be updated dynamically */
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+}
